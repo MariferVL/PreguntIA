@@ -1,0 +1,29 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "A chatbot with the ability to answer questions based on information from a document (e.g., a text or PDF file). This project utilizes Flowise to extend the functionality of a traditional chatbot and creates a chatflow using available tools to empower the chatbot with document-based question-answering capabilities.",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage",
+    "lint": "eslint .",
+    "load": "PORT=3000 node ./scripts/index.js"
+  },
+  "keywords": [
+    "chatbot",
+    "question-answering",
+    "document-analysis",
+    "flowise",
+    "chatflow"
+  ],
+  "author": "María-Fernanda Villalobos",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "jest": "^29.6.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
